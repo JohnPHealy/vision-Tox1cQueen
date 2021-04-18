@@ -8,10 +8,6 @@ public class PlayerRespon : MonoBehaviour
      [SerializeField] private LayerMask playerLayers;
      [SerializeField] private GameManager manager;
 
-
-
-
-
      private void OnCollisionEnter2D(Collision2D other)
      {
          if (other.gameObject.tag == "Player")
