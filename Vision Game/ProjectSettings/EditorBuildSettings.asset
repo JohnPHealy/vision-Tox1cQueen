@@ -8,10 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Start.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Red.unity
     guid: f55dc8b0e850bc34182646f8552c7e00
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Blue.unity
     guid: 56afb365a45ed6942aba5d22f98102f7
   m_configObjects: {}
