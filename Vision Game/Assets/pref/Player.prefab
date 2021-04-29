@@ -182,7 +182,19 @@ MonoBehaviour:
     m_ActionId: f847cfa1-3f5e-4cec-bc97-2d28e61c2493
     m_ActionName: Gameplay/Jump[/Keyboard/space]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: PauseGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 068f57db-f207-4bd4-8567-0fdf57bb2fb5
     m_ActionName: Gameplay/Pause[/Keyboard/p]
   m_NeverAutoSwitchControlSchemes: 0
@@ -202,8 +214,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb92b9d534dc794fb92891ec210702f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 45
-  maxSpeed: 45
+  moveSpeed: 40
+  maxSpeed: 40
   jumpForce: 30
   groundCheck: {fileID: 3379718313705020306}
   groundLayers:
