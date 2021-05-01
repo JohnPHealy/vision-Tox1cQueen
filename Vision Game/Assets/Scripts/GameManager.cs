@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
      private void Start()
         {
             startPos = player.transform.position;
-               Time.timeScale = 0;
+               Time.timeScale = 1;
               score = 0;
             }
 
