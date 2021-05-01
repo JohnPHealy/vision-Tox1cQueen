@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
             startPos = player.transform.position;
                Time.timeScale = 1;
               score = 0;
+
             }
 
              public void RespawnPlayer()
