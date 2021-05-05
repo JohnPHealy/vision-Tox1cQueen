@@ -190,7 +190,7 @@ MonoBehaviour:
   moveSpeed: 40
   maxSpeed: 40
   jumpForce: 27
-  groundCheck: {fileID: 0}
+  groundCheck: {fileID: 5475116046353004622}
   groundLayers:
     serializedVersion: 2
     m_Bits: 64
