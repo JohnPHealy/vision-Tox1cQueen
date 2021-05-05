@@ -154,11 +154,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f762eeea6a466674ca968d1b710ac2b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerCheck: {fileID: 0}
+  PlayerCheck: {fileID: 6997852274091764758}
   PlayerLayers:
     serializedVersion: 2
-    m_Bits: 0
-  manager: {fileID: 0}
+    m_Bits: 8
+  manager: {fileID: 104092123682796728, guid: 7782895bd5dfeae4ca19670a1050b0f6, type: 3}
 --- !u!61 &6997852274092422368
 BoxCollider2D:
   m_ObjectHideFlags: 0
